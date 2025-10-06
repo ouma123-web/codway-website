@@ -39,12 +39,12 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
-              src="codway.png"
-              alt="Codway Logo"
-              width={90}
-              height={45}
-              className="h-12 w-auto"
-            />
+  src="codway.png"
+  alt="Codway Logo"
+  width={60} // réduit la largeur
+  height={30} // réduit la hauteur
+  className="h-8 w-auto" // ajuste aussi la classe Tailwind
+/>
           </Link>
 
           {/* Desktop Navigation */}
